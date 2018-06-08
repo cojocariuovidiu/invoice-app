@@ -1,4 +1,4 @@
-# InvoiceApp
+# Invoice App
 
 > Simple Invoice App created using the MEAN stack
 
