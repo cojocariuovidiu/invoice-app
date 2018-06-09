@@ -99,17 +99,31 @@ constructor(private heroService: HeroService) {
 
 ### Create Angular Project for our Real world Application
 
+- `ng new projectName --style=scss`
+
 ### Complete Source Code for this Module
+
+- [https://material.angular.io/guide/getting-started](https://material.angular.io/guide/getting-started)
 
 ### Important Note related to Angular Material Documentation
 
+- done
+
 ### Angular Material Setup
+
+- done
 
 ### Adding Prebuilt Material Theme
 
+- done
+
 ### Adding Material Fonts
 
+- done
+
 ### Creating Shared Module
+
+- done
 
 –
 Create Dashboard Layout on Frontend Angular Application
