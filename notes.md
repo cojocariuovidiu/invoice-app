@@ -5,54 +5,112 @@
 
 ## Angular Architecture
 
+- done
+
 ### Install Tools
+
+- done
 
 ### Create Angular Project using Angular-cli
 
+- done
+
 ### Edit Your First Angular Component
+
+- done
 
 ### Project File Review
 
+- done
+
 ### Introduction to Modules
+
+- done
 
 ### NgModule MetaData
 
+- done
+
 ### Introduction to Components
+
+- done
 
 ### Create your first Angular Component
 
+- done
+
 ### Data Bindings
+
+- 4 ways of data binding
+  - string interpolation `{{ value }}`
+  - property binding `[property]="value"`
+  - event binding `(event)="handler"`
+  - two-way data binding `[(ng-model)]="property"`
 
 ### Pipes
 
+- transform data
+
 ### Directives
+
+- directives are functions
+  - `structural`
+    - `*ngIf`
+    - `*ngFor` `let name of names`
+  - `attribute`
+    - `ngModel`
+    - `property binding`
+    - `[ngStyle]=""`
+  - `components`
 
 ### Introduction to Services
 
+- holds function or functions that component will use
+- increase modularity
+- handle business logic
+- `do not fetch` data inside components
+- validate user input or logging
+
 ### Create Your Angular Service
+
+- done
 
 ### Introduction to Dependency Injection
 
+- technique whereby one object provides the dependency of another object
+- injector holds inside
+  - LoggerService
+  - HeroService
+  - AuthService
+
+```javascript
+constructor(private heroService: HeroService) {
+  // this also should be imported inside the component where it will be used
+}
+```
+
 ### Providing Services
 
+- done
+
 –--
-Getting Started with Real World Application
-08:18
-Create Angular Project for our Real world Application
-00:55
-Complete Source Code for this Module
-00:01
-Important Note related to Angular Material Documentation
-Preview
-00:27
-Angular Material Setup
-02:12
-Adding Prebuilt Material Theme
-00:56
-Adding Material Fonts
-01:27
-Creating Shared Module
-02:20
+
+## Getting Started with Real World Application
+
+### Create Angular Project for our Real world Application
+
+### Complete Source Code for this Module
+
+### Important Note related to Angular Material Documentation
+
+### Angular Material Setup
+
+### Adding Prebuilt Material Theme
+
+### Adding Material Fonts
+
+### Creating Shared Module
+
 –
 Create Dashboard Layout on Frontend Angular Application
 35:58
